@@ -5,6 +5,8 @@
 
 主要改动文件: ./packet_forwarder/lora_pkt_fwd/src/lora_pkt_fwd.c
 
+改动/重要的地方可以用注释@Description找到
+
 ---
 
 ## 核心功能
