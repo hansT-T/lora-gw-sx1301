@@ -3,6 +3,8 @@
 ## 项目概述
 本程序基于[lora-net/packet_forwarder](https://github.com/Lora-net/packet_forwarder)二次开发
 
+主要改动文件: ./packet_forwarder/lora_pkt_fwd/src/lora_pkt_fwd.c
+
 ---
 
 ## 核心功能
