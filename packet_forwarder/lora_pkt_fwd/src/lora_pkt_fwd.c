@@ -1254,6 +1254,14 @@ int main(void)
         /* wait for next reporting interval */
         wait_ms(2000);
 
+        /*
+        @Description : 用flag来控制要不要发送下行消息，one-way时间同步时不用发送下行消息
+        
+        */
+        if(flag != 0){
+            continue;
+        }
+
         /* get timestamp for statistics */
         t = time(NULL);
         strftime(stat_timestamp, sizeof stat_timestamp, "%F %T %Z", gmtime(&t));
